@@ -19,7 +19,7 @@ ctx.fillStyle = "green"; // 따라서, 스타일 변경(색상)이 아래 사각
 ctx.rect(350,350, 100,100);
 setTimeout(() => {ctx.fill();}, 1000); 
 
-
+// 집 그리기
 ctx.moveTo(250,550);
 ctx.lineTo(350,450);
 ctx.lineTo(450,450);
